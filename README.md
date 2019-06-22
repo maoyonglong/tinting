@@ -23,7 +23,10 @@ tint.error('error')
 // only use the original
 // for example:
 tint.time('label') // only call the console.time, doing nothing
+tint.timeEnd('label')
 ```
+> the result is:   
+![result.jpg](./result.jpg)
 
 ## Custom
 you can initialize a new instance with custom style by calling `tint.createInstance(options)`
